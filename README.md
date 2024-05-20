@@ -1,2 +1,2 @@
-# terraform-aws-demo
-Terraform AWS Demo
+# terraform-aws-ec2
+Terraform AWS EC2
