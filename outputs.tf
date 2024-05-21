@@ -1,5 +1,5 @@
 output "ssh_access" {
-  value = "ssh -i ~/.ssh/hashicorp ubuntu@${aws_instance.vm.public_ip}"
+  value = "ssh -i ~/.ssh/id_rsa ubuntu@${aws_instance.vm.public_ip}"
   description = "SSH Access"
 }
 
